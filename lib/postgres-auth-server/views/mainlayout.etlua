@@ -11,7 +11,7 @@
   <div class="pure-g header">
   <div class="pure-u-1 title">
   <h1><a href="/">Jardim Multistreamer</a></h1>
-  <p><% if user then %>Logged in as <%= user.username %> (<a href="<%= /profile/<%= user.id %>">Profile</a>) (<a href="<%= url_for('logout') %>">Logout</a>)<% end %></p>
+  <p><% if user then %>Logged in as <%= user.username %> (<a href="/profile/<%= user.id %>">Profile</a>) (<a href="<%= url_for('logout') %>">Logout</a>)<% end %></p>
   </div>
   </div>
   <div class="wrapper">
